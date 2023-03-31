@@ -1,0 +1,12 @@
+.Chat__button_active{
+    /* border: dashed #00feff47; */
+    background: #00feff47;
+}
+
+.Chat__button_active .btn{
+    background: #00feff47 !important;
+}
+
+.Chat__button-dropdown-menu {
+    text-align: center !important;
+}

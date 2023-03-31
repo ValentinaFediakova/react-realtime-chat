@@ -1,0 +1,4 @@
+.MessagesPanel__Card-Body{
+    height: 32vh;
+    overflow: auto;
+}
