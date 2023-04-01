@@ -6,7 +6,7 @@ import { t } from 'i18next';
 const filter = require('leo-profanity');
 
 export const href = process.env.NODE_ENV === 'development' ? 'http://localhost:5001' : 'http://localhost:5001';
-export const SOKET_URI = 'ws://localhost:5001';
+export const SOKET_URI = '/';
 export const DEFAULT_CHANNEL = 1;
 export const AUTHORISATION_PAGE_PATH = 'login';
 export const REGISTRATION_PAGE_PATH = 'signup';
@@ -30,7 +30,7 @@ export const cleanBadWords = (words) => {
   return result;
 };
 
-const getUrl = (url) => `${href}${url}`;
+const getUrl = (url) => url
 
 const notifyError = (text) => toast.error(`🦄 ${t(text)}`, {
   position: 'top-right',

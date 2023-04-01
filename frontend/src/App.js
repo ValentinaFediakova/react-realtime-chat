@@ -2,7 +2,6 @@ import React, { useEffect, useState } from 'react';
 import { Provider, ErrorBoundary } from '@rollbar/react';
 import {
   useLocation,
-  useNavigate,
   Route,
   Routes,
   BrowserRouter,

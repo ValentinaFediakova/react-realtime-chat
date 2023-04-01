@@ -2,7 +2,7 @@
   "name": "frontend",
   "version": "0.1.0",
   "private": true,
-  "proxy": "http://localhost:5001",
+  "proxy": "http://127.0.0.1:5001",
   "dependencies": {
     "@rollbar/react": "^0.11.1",
     "@testing-library/jest-dom": "^5.16.5",
@@ -28,8 +28,8 @@
     "yup": "^1.0.2"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
+    "start": "DISABLE_ESLINT_PLUGIN=true react-scripts start",
+    "build": "DISABLE_ESLINT_PLUGIN=true react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "lint": "eslint --fix --ext .js,.jsx ."
