@@ -14,16 +14,16 @@ const Input = ({
 
   return (
     <div className="Input__wrap">
-      <label >{placeholder}</label>
       <input
         placeholder={placeholder}
         type={type}
         name={name}
+        id={name}
         value={value}
         className={classesInput}
         onChange={onChange}
       />
-      
+      <label for={name}>{placeholder}</label>
       <ErrorField error={error} />
     </div>
   );

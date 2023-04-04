@@ -7,7 +7,8 @@ const ErrorField = ({ error = [] }) => {
 
   return (
     <>
-      { error.map((item, index) => <p key={index} className="ErrorField">{t(item)}</p>) }
+      { error.map((item, index) => <p key={index} className="ErrorField">{t(item)}</p>)}
+      {console.log('error', error)}
     </>
   );
 };
