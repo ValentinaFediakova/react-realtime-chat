@@ -5,6 +5,7 @@
 .Input__wrap label{
     visibility: hidden;
     line-height: 0;
+    position: absolute;
 }
 
 .Input{
