@@ -2,6 +2,11 @@
     position: relative;
 }
 
+.Input__wrap label{
+    visibility: hidden;
+    line-height: 0;
+}
+
 .Input{
     display: block;
     width: 100%;

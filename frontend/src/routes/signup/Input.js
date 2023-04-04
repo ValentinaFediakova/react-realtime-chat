@@ -14,6 +14,7 @@ const Input = ({
 
   return (
     <div className="Input__wrap">
+      <label >{placeholder}</label>
       <input
         placeholder={placeholder}
         type={type}
@@ -22,6 +23,7 @@ const Input = ({
         className={classesInput}
         onChange={onChange}
       />
+      
       <ErrorField error={error} />
     </div>
   );
