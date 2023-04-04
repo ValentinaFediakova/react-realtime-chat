@@ -46,7 +46,7 @@ export const ru = {
       errorValidateRequiredField: 'обязательное поле',
       errorValidateMax20Min3: 'от 3 до 20 символов',
       errorValidateMin5: 'от 5 символов',
-      errorValidateMin6: 'не менее 6 символов',
+      errorValidateMin6: 'Не менее 6 символов',
       errorValidateSamePasswords: 'Пароли должны совпадать',
       errorValidateUserAlreadyExist: 'Такой пользователь уже существует',
     },
