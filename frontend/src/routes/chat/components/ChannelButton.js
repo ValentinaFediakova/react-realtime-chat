@@ -31,7 +31,7 @@ const ChannelButton = ({
       {removable && (
         <Dropdown as={ButtonGroup} className={classesButton}>
           <Button variant="light" onClick={() => handleChangeCurrentChannelClick(id)}>
-            #
+            #&nbsp;
             {text}
           </Button>
 
