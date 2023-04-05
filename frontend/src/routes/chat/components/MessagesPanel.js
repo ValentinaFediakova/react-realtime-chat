@@ -80,7 +80,8 @@ const MessagesPanel = (props) => {
             <Form.Control
               ref={props.onRef}
               type="text"
-              placeholder=""
+              aria-label="Новое сообщение"
+              placeholder="Введите сообщение..."
               aria-describedby="btnGroupAddon"
               value={message}
               onChange={(event) => setMessage(event.target.value)}
