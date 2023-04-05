@@ -84,7 +84,7 @@ const Login = () => {
               }) => (
                 <FormBootstrap onSubmit={handleSubmit}>
                   <FormBootstrap.Group as={Col} md="11" className="Login-input-item">
-                    <FormBootstrap.Label>{t('authorization.login')}</FormBootstrap.Label>
+                    <FormBootstrap.Label htmlFor="username">{t('authorization.login')}</FormBootstrap.Label>
                     <FormBootstrap.Control
                       required
                       type="text"
@@ -93,13 +93,14 @@ const Login = () => {
                       onChange={handleChange}
                           // isValid={touched.username && !errors.username}
                       isInvalid={!!errors.username}
+                      controlId='username'
                     />
                     {/* <FormBootstrap.Control.Feedback type="valid">{t('errorsTexts.noErrors')}</FormBootstrap.Control.Feedback> */}
                     <FormBootstrap.Control.Feedback type="invalid">{t(errors.username)}</FormBootstrap.Control.Feedback>
                   </FormBootstrap.Group>
 
                   <FormBootstrap.Group as={Col} md="11" className="Login-input-item">
-                    <FormBootstrap.Label>{t('authorization.password')}</FormBootstrap.Label>
+                    <FormBootstrap.Label htmlFor="password">{t('authorization.password')}</FormBootstrap.Label>
                     <FormBootstrap.Control
                       required
                       type="password"
@@ -108,6 +109,7 @@ const Login = () => {
                       onChange={handleChange}
                           // isValid={touched.password && !errors.password}
                       isInvalid={!!errors.password}
+                      controlId="password"
                     />
                     {/* <FormBootstrap.Control.Feedback type="valid">{t('errorsTexts.noErrors')}</FormBootstrap.Control.Feedback> */}
                     <FormBootstrap.Control.Feedback type="invalid">{t(errors.password)}</FormBootstrap.Control.Feedback>
