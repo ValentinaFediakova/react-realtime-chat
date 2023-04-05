@@ -16,7 +16,7 @@ export const ru = {
       },
       channel: 'Каналы',
       addChannelModalHeading: 'Добавить канал',
-      inputNameChannel: 'Название канала',
+      inputNameChannel: 'Имя канала',
       addBtn: 'Отправить',
       cancelBtn: 'Отменить',
       deleteChannelModalHeading: 'Удалить канал',

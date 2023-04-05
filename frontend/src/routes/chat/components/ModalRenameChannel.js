@@ -62,7 +62,7 @@ const ModalRenameChannel = ({
       <Modal.Body>
         <Form onSubmit={handleRenameChannel}>
           <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
-            <Form.Label>{t('chat.inputNewName')}</Form.Label>
+            <Form.Label className="visually-hidden" htmlFor="channelName">{t('chat.inputNameChannel')}</Form.Label>
             <Form.Control
               isInvalid={!validated}
               type="text"
@@ -70,6 +70,7 @@ const ModalRenameChannel = ({
               value={nameChannel}
               autoFocus
               onChange={handleInputChange}
+              id="channelName"
             />
             <Form.Control.Feedback type="invalid" tooltip>
               {errorsValidation.map((item, index) => (

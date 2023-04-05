@@ -65,7 +65,7 @@ const ModalAddChannel = ({ show, onClose }) => {
       <Modal.Body>
         <Form onSubmit={handleAddNewChannel}>
           <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
-            <Form.Label>{t('chat.inputNameChannel')}</Form.Label>
+            <Form.Label className="visually-hidden" htmlFor="channelName">{t('chat.inputNameChannel')}</Form.Label>
             <Form.Control
               isInvalid={!validated}
               type="text"
@@ -73,6 +73,7 @@ const ModalAddChannel = ({ show, onClose }) => {
               value={inputValue}
               autoFocus
               onChange={handleInputChange}
+              id='channelName'
             />
             <Form.Control.Feedback type="invalid" tooltip>
               {errorsValidation.map((item, index) => (
