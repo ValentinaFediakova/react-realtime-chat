@@ -93,7 +93,7 @@ const Login = () => {
                       onChange={handleChange}
                           // isValid={touched.username && !errors.username}
                       isInvalid={!!errors.username}
-                      controlId='username'
+                      id='username'
                     />
                     {/* <FormBootstrap.Control.Feedback type="valid">{t('errorsTexts.noErrors')}</FormBootstrap.Control.Feedback> */}
                     <FormBootstrap.Control.Feedback type="invalid">{t(errors.username)}</FormBootstrap.Control.Feedback>
@@ -109,7 +109,7 @@ const Login = () => {
                       onChange={handleChange}
                           // isValid={touched.password && !errors.password}
                       isInvalid={!!errors.password}
-                      controlId="password"
+                      id="password"
                     />
                     {/* <FormBootstrap.Control.Feedback type="valid">{t('errorsTexts.noErrors')}</FormBootstrap.Control.Feedback> */}
                     <FormBootstrap.Control.Feedback type="invalid">{t(errors.password)}</FormBootstrap.Control.Feedback>
