@@ -181,9 +181,9 @@ const Signup = () => {
           {t('footer.registration')}
           :&nbsp;
           { userLoading === 'startLoading'
-            && <Nav.Link to="/login" eventKey="disabled" disabled>{t('footer.regLink')}</Nav.Link>}
+            && <Nav.Link as={Link} to="/login" eventKey="disabled" disabled>{t('footer.regLink')}</Nav.Link>}
           { userLoading !== 'startLoading'
-            && <Nav.Link to="/login">{t('footer.regLink')}</Nav.Link>}
+            && <Nav.Link as={Link} to="/login">{t('footer.regLink')}</Nav.Link>}
         </Card.Footer>
       </Card>
 
