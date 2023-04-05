@@ -54,7 +54,7 @@ const ChannelButton = ({
           className={classesButton}
           onClick={() => handleChangeCurrentChannelClick(id)}
         >
-          #
+          #&nbsp;
           {text}
         </Button>
       )}
