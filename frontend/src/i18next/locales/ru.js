@@ -21,10 +21,10 @@ export const ru = {
       cancelBtn: 'Отменить',
       deleteChannelModalHeading: 'Удалить канал',
       deleteChannelModalText: 'Уверены?',
-      deleteChannelBtn: 'удалить',
+      deleteChannelBtn: 'Удалить',
       renameChannelModalHeading: 'Изменить название',
       inputNewName: 'Введите новое название',
-      renameChannelBtn: 'переименовать',
+      renameChannelBtn: 'Переименовать',
     },
     authorization: {
       header: 'Авторизация',

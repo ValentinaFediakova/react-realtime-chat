@@ -34,13 +34,16 @@ const ChannelButton = ({
             #&nbsp;
             {text}
           </Button>
-
+          
           <Dropdown.Toggle
             className="Chat__button-dropdown-menu"
             split
             variant="light"
             id="dropdown-split-basic"
-          />
+          >
+            <span class="visually-hidden">Управление каналом</span>
+          </Dropdown.Toggle>
+          
           <Dropdown.Menu>
             <Dropdown.Item eventKey="1" onClick={() => onShowDeletedModal(id)}>{t('chat.deleteChannelBtn')}</Dropdown.Item>
             <Dropdown.Item eventKey="2" onClick={() => onShowRenameModal(id)}>{t('chat.renameChannelBtn')}</Dropdown.Item>
