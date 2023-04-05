@@ -35,7 +35,14 @@ const ChannelPanel = ({
           <Container>
             <Row className="ChannelButtons__header">
               <Col sm={8}>{t('chat.channel')}</Col>
-              <Col sm={1}><Button onClick={onShowAddChannelModal} variant="link" className="Chat__button_marginTop">{svgAddChannel}</Button></Col>
+              <Col sm={1}>
+                <div>
+                  <></>
+                  <Button onClick={onShowAddChannelModal} variant="link" className="Chat__button_marginTop">{svgAddChannel}
+                    <span class="visually-hidden">+</span>
+                  </Button>
+                </div>
+              </Col>
             </Row>
           </Container>
           <ButtonGroup className="ChannelButtons__wrap" vertical>
