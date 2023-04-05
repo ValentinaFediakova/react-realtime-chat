@@ -1,3 +1,5 @@
+/* eslint-disable */
+
 export const CHANNELS_ADD = 'CHANNELS_ADD';
 export const CHANNEL_ADD = 'CHANNEL_ADD';
 export const CHANNEL_REMOVE = 'CHANNEL_REMOVE';

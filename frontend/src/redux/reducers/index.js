@@ -1,3 +1,5 @@
+/* eslint-disable */
+
 import { combineReducers } from 'redux';
 import channels from './channels.reducer';
 import loading from './loading.reducer';

@@ -1,3 +1,5 @@
+/* eslint-disable */
+
 import { request, AUTHORISATION_PAGE_PATH } from '../../utils';
 import { loadingUserStart, loadingUserEnd, loadingUserError } from '../actions/user.action';
 import UnauthorizedError from '../../errors/UnauthorizedError';

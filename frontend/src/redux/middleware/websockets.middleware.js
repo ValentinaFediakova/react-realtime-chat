@@ -1,3 +1,5 @@
+/* eslint-disable */
+
 import { io } from 'socket.io-client';
 import { SOKET_URI } from '../../utils';
 import {

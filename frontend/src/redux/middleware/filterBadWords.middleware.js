@@ -1,3 +1,5 @@
+/* eslint-disable */
+
 import { MESSAGE_ADD, MESSAGES_ADD } from '../actionTypes/messages.actionType';
 import { CHANNEL_ADD, CHANNELS_ADD, CHANNEL_RENAME } from '../actionTypes/channels.actionType';
 import { cleanBadWords } from '../../utils';

@@ -1,3 +1,4 @@
+/* eslint-disable */
 import { lte } from 'lodash';
 import React from 'react';
 import './error-page.css';

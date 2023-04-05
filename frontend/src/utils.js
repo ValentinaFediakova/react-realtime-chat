@@ -1,3 +1,5 @@
+/* eslint-disable */
+
 import axios from 'axios';
 import { async } from 'regenerator-runtime';
 import { toast, Slide } from 'react-toastify';

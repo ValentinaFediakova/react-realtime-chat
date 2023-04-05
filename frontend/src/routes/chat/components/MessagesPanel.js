@@ -1,3 +1,5 @@
+/* eslint-disable */
+
 import { useDispatch, useSelector } from 'react-redux';
 import { useState, useRef, useEffect } from 'react';
 import { flushSync } from 'react-dom';

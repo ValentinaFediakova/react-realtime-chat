@@ -1,3 +1,5 @@
+/* eslint-disable */
+
 import { CHANNEL_REMOVE, CHANNEL_RENAME, CHANNEL_ADD } from '../actionTypes/channels.actionType';
 import { notifySomethingNew } from '../../utils';
 

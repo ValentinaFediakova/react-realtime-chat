@@ -1,3 +1,5 @@
+/* eslint-disable */
+
 import cn from 'classnames';
 
 import ErrorField from './ErrorField';

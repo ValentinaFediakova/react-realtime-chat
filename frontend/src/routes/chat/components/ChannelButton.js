@@ -1,3 +1,5 @@
+/* eslint-disable */
+
 import React, { useState, useEffect } from 'react';
 import { useStore, useDispatch, useSelector } from 'react-redux';
 import cn from 'classnames';

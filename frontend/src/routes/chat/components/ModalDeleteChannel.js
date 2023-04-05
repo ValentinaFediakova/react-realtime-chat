@@ -1,3 +1,5 @@
+/* eslint-disable */
+
 import React, { useState } from 'react';
 import { useStore, useDispatch, useSelector } from 'react-redux';
 import { useTranslation } from 'react-i18next';

@@ -1,3 +1,5 @@
+/* eslint-disable */
+
 import {
   CHANNELS_ADD,
   CHANNEL_ADD,

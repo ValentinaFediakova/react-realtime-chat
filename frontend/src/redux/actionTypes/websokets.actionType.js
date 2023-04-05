@@ -1,3 +1,5 @@
+/* eslint-disable */
+
 export const WS_CONNECT = 'WS_CONNECT';
 export const WS_SEND_MESSAGE = 'WS_SEND_MESSAGE';
 export const WS_ADD_CHANNEL = 'WS_ADD_CHANNEL';

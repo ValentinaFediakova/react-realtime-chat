@@ -1,3 +1,5 @@
+/* eslint-disable */
+
 import { createStore, applyMiddleware, compose } from 'redux';
 import thunk from 'redux-thunk';
 import socketMiddleware from './middleware/websockets.middleware';

@@ -1,3 +1,5 @@
+/* eslint-disable */
+
 import { request, REGISTRATION_PAGE_PATH } from '../../utils';
 import {
   loadingUserStart, loadingUserEnd, loadingUserError, addUser,

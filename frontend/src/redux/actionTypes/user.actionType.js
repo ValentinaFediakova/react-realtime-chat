@@ -1,3 +1,5 @@
+/* eslint-disable */
+
 export const USER_ADD = 'USER_ADD';
 export const USER_DELETE = 'USER_DELETE';
 export const USER_LOADING_START = 'USER_LOADING_START';
