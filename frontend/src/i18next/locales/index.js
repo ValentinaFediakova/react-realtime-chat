@@ -1,3 +1,5 @@
+/* eslint-disable */
+
 import { ru } from './ru.js';
 
 // example export const resources = { ru, en, arab };
