@@ -43,6 +43,7 @@ export const ru = {
     errorsTexts: {
       noErrors: 'отлично!',
       errorNamePasswordMessage: 'Неверные имя пользователя или пароль',
+      errorPasswordMessage: '',
       errorValidateRequiredField: 'обязательное поле',
       errorValidateMax20Min3: 'от 3 до 20 символов',
       errorValidateMin5: 'от 5 символов',

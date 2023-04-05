@@ -48,7 +48,7 @@ const Login = () => {
   useEffect(() => {
     if (userLoadingError instanceof UnauthorizedError) {
       const error1 = {
-        username: 'errorsTexts.errorNamePasswordMessage',
+        username: 'errorsTexts.errorPasswordMessage',
         password: 'errorsTexts.errorNamePasswordMessage',
       };
       formikRef.current.setSubmitting(false);
