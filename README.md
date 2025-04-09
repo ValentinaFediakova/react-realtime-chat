@@ -21,6 +21,7 @@ This project was developed as part of a Hexlet course to practice building a fro
 - Axios
 - Socket.IO-client
 - i18next
+- Formik
 
 ## 🚀 Getting Started
 
@@ -37,16 +38,37 @@ cd react-realtime-chat
 npm install
 ```
 
-### 3. Start the development server
+### 3. Install and run the backend server
 
 ```bash
-npm run start
+npm install @hexlet/chat-server
+npx chat-server
+```
+
+The backend will run at `http://localhost:5001`.
+
+You can test it with:
+
+```bash
+curl http://localhost:5001/api/v1/channels
+```
+
+For more details, see the official server documentation:  
+👉 https://www.npmjs.com/package/@hexlet/chat-server
+
+### 4. Start the frontend app
+
+```bash
+npm start
 ```
 
 The app will be available at `http://localhost:3000`.
 
-> 🔐 Note: The backend for this project was provided by Hexlet during the course. For more information or access to the backend, please refer to the course materials or contact Hexlet support.
+> Note: Proxy to the backend is already configured in `frontend/package.json`:
+> ```json
+> "proxy": "http://127.0.0.1:5001"
+> ```
 
 ## 📦 Status
 
-No active development planned.
+Project completed as part of the Hexlet curriculum. No active development planned, but feel free to explore the code.
